@@ -1,0 +1,49 @@
+Team 6, student 24, Results form ICP_DL3
+
+# 4 - RESULTS FROM RUNNING WORD2VEC - ONLY STEP SIZED CHANGED TO 5000
+Average loss at step  0 :  283.8901672363281
+Average loss at step  1000 :  10529.933713104248
+Average loss at step  2000 :  23162.561952941895
+Average loss at step  3000 :  27045.924156795503
+Average loss at step  4000 :  31929.89509193802
+
+# 2 - RESULTS FROM CHANGING VALID SIZE TO 20 (no graph)
+ Average loss at step  0 :  263.55426025390625
+Average loss at step  1000 :  10486.463470230103
+Average loss at step  2000 :  22440.586666732786
+Average loss at step  3000 :  27850.64863143921
+Average loss at step  4000 :  31281.297364986418
+
+# 2 (again) - RESULTS FROM CHANGING VALID SIZE TO 50 (GRAPH WOULD NOT SAVE AT 20 FOR SOME REASON)
+Changing the valid size decreased the errors slightly
+Average loss at step  0 :  274.5169372558594
+Average loss at step  1000 :  10109.619817993163
+Average loss at step  2000 :  23509.07709957886
+Average loss at step  3000 :  26431.59005427551
+Average loss at step  4000 :  32301.47742671776
+
+#1 LEARNING RATE CHANGED FROM 0.O1 TO O.O9
+increasing the learning rate decreased the average loss
+
+Average loss at step  0 :  274.7197265625
+Average loss at step  1000 :  10286.606131103516
+Average loss at step  2000 :  21860.88953025818
+Average loss at step  3000 :  26501.22096761322
+Average loss at step  4000 :  31603.52810131359
+
+
+#3 CHANGED EMBEDDING SIZE FROM 150 to 50
+this change drastically decreased the average loss at almost every step
+Average loss at step     0 :  263.0733642578125
+Average loss at step  1000 :  4730.280385437011
+Average loss at step  2000 :  9562.249693504333
+Average loss at step  3000 :  11635.598496788025
+Average loss at step  4000 :  14497.636879058839
+
+#4.2 CHANGED THE STEP SIZE FROM 5000 TO 2000
+Changing the step size had a slight increase to average loss
+Average loss at step  0 :  304.8245544433594
+Average loss at step  1000 :  10544.944429534911
+
+
+
